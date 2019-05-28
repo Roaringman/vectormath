@@ -12,4 +12,4 @@ Chain the methods like so:
 let newVector1 = vector2d(x1,y1).
 let newVector2 = vector2d(x2,y2).
 
-newVector1.add(newVector2).normalize().scale(8);
+newVector1.add(newVector2.vec).normalize().scale(8);
